@@ -86,6 +86,3 @@ dkms remove -m %{module_name} -v %{version} --rpm_safe_upgrade --all ||:
 %defattr(-,root,root)
 %_usrsrc/%{module_name}-%{version}
 %_sysconfdir/udev/rules.d/%{module_name}.rules
-
-%{!?_with_unstable:* %(LC_ALL=C date +"%a %b %d %Y") %{packager} %{version}-%{release}}
-%{!?_with_unstable: - rebuild of %{version}-%{rel}%{distsuffix} for %{distversion}}
