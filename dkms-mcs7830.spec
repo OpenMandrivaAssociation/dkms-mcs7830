@@ -89,9 +89,3 @@ dkms remove -m %{module_name} -v %{version} --rpm_safe_upgrade --all ||:
 
 %{!?_with_unstable:* %(LC_ALL=C date +"%a %b %d %Y") %{packager} %{version}-%{release}}
 %{!?_with_unstable: - rebuild of %{version}-%{rel}%{distsuffix} for %{distversion}}
-* Wed May 31 2006 Olivier Lahaye <olivier.lahaye1@free.fr> 1.4-1%{distsuffix}
-- New version 1.4
-- Initial integration into Mandriva Cooker (pre 2007.0)
-
-* Tue Apr 25 2006 Olivier Lahaye <olivier.lahaye1@free.fr> 1.0.0.1-1%{distsuffix}
-- Initial packaging.
