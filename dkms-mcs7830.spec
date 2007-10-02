@@ -1,7 +1,7 @@
 %define module_name mcs7830
 %define name dkms-%{module_name}
 %define version 1.4
-%define release %mkrel 2
+%define release %mkrel 3
 
 Name:		%{name}
 Version:	%{version}
