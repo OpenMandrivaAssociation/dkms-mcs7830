@@ -16,7 +16,6 @@ Url:		http://www.moschip.com/html/support.html
 Group:		System/Kernel and hardware
 Requires(pre):	dkms
 Requires(post): dkms
-Buildroot:	%{_tmppath}/%{name}-%{version}-root
 Exclusivearch:	%{ix86} x86_64
 
 %description
