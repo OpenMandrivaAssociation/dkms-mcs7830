@@ -20,7 +20,14 @@ Buildroot:	%{_tmppath}/%{name}-%{version}-root
 Exclusivearch:	%{ix86} x86_64
 
 %description
-The USB to MAC Ethernet Controller is a unique solution to interface peripheral devices to Universal Serial Bus 2.0 (USB 2.0) and 10/100 Base -T Ethernet. This device has been specially designed to provide simple solution to communicate with Ethernet applications accomplished by its highly integrated functionality. It is ideal for LAN (Local Area Network) applications. It provides internal buffering to enable parallel operations from USB ports on host side and MAC ports on the Ethernet bus. It also provides serial interface for EEPROM storing device ID.
+The USB to MAC Ethernet Controller is a unique solution to interface peripheral
+devices to Universal Serial Bus 2.0 (USB 2.0) and 10/100 Base -T Ethernet. This
+device has been specially designed to provide simple solution to communicate
+with Ethernet applications accomplished by its highly integrated functionality.
+It is ideal for LAN (Local Area Network) applications. It provides internal
+buffering to enable parallel operations from USB ports on host side and MAC
+ports on the Ethernet bus. It also provides serial interface for EEPROM storing
+device ID.
 
 %prep
 #%setup -q -n %{module_name}FC4Ver%{version}
