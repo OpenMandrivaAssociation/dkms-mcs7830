@@ -12,7 +12,7 @@ Source:		%{module_name}-%{version}.tar.bz2
 Source1:	GPL-V2.bz2
 Source2:	README-mcs7830.bz2
 Source3:	AUTHORS-mcs7830.bz2
-Url:		http://www.moschip.com/html/support.html
+Url:		https://www.moschip.com/html/support.html
 Group:		System/Kernel and hardware
 Requires(pre):	dkms
 Requires(post): dkms
